@@ -4,29 +4,41 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div>
+      <div className = "Heading"> 
+        <div className = "Name"> Matt Fields </div>
+        <div className = "Info">
+            <div> About </div>
+            <div> Archive </div>
+        </div>
+        <div className = "Mode"> Mode </div>
+        <div className = "Fun"> basketball camera water</div>
       </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div className = "Body">
+        <div> Pictures describing me</div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className = "BodyDescription">
+        <div> Front End Developer QA Engineer</div>
+      </div>
+      <div className = "Projects">
+        <div className = "Box1"> Project 1 </div>
+        <div className = "Box1"> Project 2 </div>
+        <div className = "Box1"> Project 3 </div>
+
+      </div>
+      <div className = "Bottom">
+        <div className = "BottomLeft"> 
+          <div> Email </div>
+         
+        </div>
+        <div className = "BottomRight"> 
+          <div> GitHub logo </div>
+          <div> LinkedIn logo </div>
+        </div>
+      </div>
+      
     </div>
   )
 }
